@@ -6,7 +6,16 @@
         {
             "label": "echo",
             "type": "shell",
-            "command": "echo Hello"
+            "command": "echo Hello",
+            "group": "build",
+            "problemMatcher": []
+        },
+        {
+            "label": "Run Python File",
+            "type": "shell",
+            "command": "python ${workspaceFolder}/hello.py",
+            "group": "build",
+            "problemMatcher": []
         }
     ]
 }
