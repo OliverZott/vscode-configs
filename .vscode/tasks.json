@@ -11,9 +11,16 @@
             "problemMatcher": []
         },
         {
-            "label": "Run Python File",
+            "label": "Run Specific Python File",
             "type": "shell",
             "command": "python ${workspaceFolder}/hello.py",
+            "group": "build",
+            "problemMatcher": []
+        },
+        {
+            "label": "Run Active Python File",
+            "type": "shell",
+            "command": "python ${file}",
             "group": "build",
             "problemMatcher": []
         }
